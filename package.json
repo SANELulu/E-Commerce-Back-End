@@ -1,0 +1,32 @@
+{
+  "name": "E-Commerce-Back-End",
+  "username": "hcanxch0bc5kg1n9",
+  "password": "qnnt4lantlutz6rd",
+  "host": "vkh7buea61avxg07.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SANELulu/E-Commerce-Back-End.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SANELulu/E-Commerce-Back-End/issues"
+  },
+  "homepage": "https://github.com/SANELulu/E-Commerce-Back-End#readme"
+}
